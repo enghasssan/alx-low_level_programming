@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-/*
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (success)
+ *
  * This is a code to print somthing not important at any measures
+ *
  */
 
 int main(void)
