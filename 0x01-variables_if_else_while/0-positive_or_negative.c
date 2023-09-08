@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main - entry point
+/* main - entry point
  * Description: choses between + and -ve
  * Return: 0 (success)
  */
