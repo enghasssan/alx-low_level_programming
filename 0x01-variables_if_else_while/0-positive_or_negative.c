@@ -4,9 +4,7 @@
 
 /** 
  * main - entry point
- * 
  * Description: choses between + and -ve
- * 
  * Return: 0 (success)
  */
 int main(void)
