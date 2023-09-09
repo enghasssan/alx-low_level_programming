@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	int num1 num2;
+	int num1;
+	int num2;
 	
 	for (num1 = 48; num1 <= 57; num1++)
 	{
