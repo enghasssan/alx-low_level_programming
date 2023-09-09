@@ -9,18 +9,18 @@
  */
 int main(void)
 {
-	int num1;
-	int num2;
+	int digit = 0;
 	
-	for (num1 = 48; num1 <= 57; num1++)
+	while (digit <=9)
 	{
-		for (num2 =48; num2 <= 57; num2++)
+		putchar(digit + 48);
+
+		if (digit !=9)
 		{
-			putchar(num1);
 			putchar(',');
 			putchar(' ');
-			putchar(num2);
 		}
+		digit++;
 	}
 	return(0);
 }
