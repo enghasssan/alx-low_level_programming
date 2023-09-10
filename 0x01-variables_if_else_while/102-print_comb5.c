@@ -22,14 +22,19 @@ int main(void)
 			{
 				for (n4 = 48; n4 <= 57; n4++)
 				{
-					if (n1 + n2 < n3 + n4)
+					if ((n1 + n2) < (n3 + n4))
 					{
+						
 						putchar(n1);
 						putchar(n2);
 						putchar(' ');
 						putchar(n3);
 						putchar(n4);
 						putchar(',');
+						if (n1 + n2 + n3 + n4 != 1 && n1 * n2 * n3 * n4 != 5832)
+						{
+							putchar(' ');	
+						}	
 					}
 				}
 			}
