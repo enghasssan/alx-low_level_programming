@@ -9,33 +9,30 @@
  */
 int main(void)
 {
-	int n1=48;
+	int n1 = 48;
 	int n2;
 	int n3;
+
 	while (n1 <= 57)
 	{
-		n2 = 0;
+		n2 = 48;
 		while (n2 <= 57)
 		{
-			
-			if (n2 != n1)
+			n3 = 48;
+			while (n3 <= 57)
 			{
-				n3 = 0;
-				while (n3 <= 57)
+				if (n1 != n2 && n3 != n2 && n3 != n1 && n1 < n2 && n2 < n3)
 				{
-					if (n3 != n2 && n3 != n1 && n1 < n2 && n2 < n3 && n1 < n3)
+					putchar(n1);
+					putchar(n2);
+					putchar(n3);
+					if (n1 + n2 + n3 != 168)
 					{
-						putchar(n1);
-						putchar(n2);
-						putchar(n3);
-						if (n1 * n2 * n3 != 504)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
-				n3++;
 				}
+			n3++;
 			}
 		n2++;
 		}
@@ -44,4 +41,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
