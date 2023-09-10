@@ -18,18 +18,18 @@ int main(void)
 	{
 		for (n2 = 48; n2 <= 57; n2++)
 		{
-			putchar(n1);
-			ptuchar(n2);
-			putchar(' ');
 			for (n3 = 48; n3 <= 57; n3++)
 			{
 				for (n4 = 48; n4 <= 57; n4++)
 				{
 					if (n1 + n2 < n3 + n4)
 					{
-					putchar(n3);
-					putchar(n4);
-					putchar(',');
+						putchar(n1);
+						putchar(n2);
+						putchar(' ');
+						putchar(n3);
+						putchar(n4);
+						putchar(',');
 					}
 				}
 			}
