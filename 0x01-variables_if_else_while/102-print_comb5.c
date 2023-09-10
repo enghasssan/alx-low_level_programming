@@ -24,7 +24,6 @@ int main(void)
 				{
 					if ((n1 + n2) < (n3 + n4))
 					{
-						
 						putchar(n1);
 						putchar(n2);
 						putchar(' ');
