@@ -8,13 +8,13 @@
  *
  * Return: Always value of abs (success)
  */
-int _abs(int)
+int _abs(int l)
 {
-	int a;
+	int l;
 
-	if (a < 0)
+	if (l < 0)
 	{
-		a = a * (-1);
+		l = l * (-1);
 	}
-	return (a);
+	return (l);
 }
