@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_sign - prints the sign of a number and return a certain value accordingly.
+ * print_sign - prints the sign of a num & return certain value accordingly.
  *
  * @n: takes integer type input for function.
  *
