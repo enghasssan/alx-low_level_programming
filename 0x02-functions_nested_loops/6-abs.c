@@ -4,7 +4,7 @@
 /**
  * _abs - a function that computes the absolute value of an integer
  *
- * @a: input value integer (int)
+ * @l: input value integer (int)
  *
  * Return: Always value of abs (success)
  */
