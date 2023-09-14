@@ -4,10 +4,9 @@
 /**
  * isalpha : checks for alphabetic character
  *
- * @c: checks for input
+ * @c: takes input from other fns
  *
- * Return: 1 if c is a letter, lowercase or uppercase
- * 0 otherwise (success)
+ * Return: 1 if c is a letter, else 0 (success)
  */
 int _isalpha(int c)
 {
