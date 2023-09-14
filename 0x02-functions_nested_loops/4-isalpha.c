@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * isalpha : checks for alphabetic character
+ * function _isalpha: checks for alphabetic character upper/lower
  *
  * @c: takes input from other fns
  *
