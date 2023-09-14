@@ -10,8 +10,6 @@
  */
 int _abs(int l)
 {
-	int l;
-
 	if (l < 0)
 	{
 		l = l * (-1);
