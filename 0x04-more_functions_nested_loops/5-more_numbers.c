@@ -17,12 +17,12 @@ void more_numbers(void)
 	{
 		for (i = 0; i < 10; i++)
 		{
-			_putchar(i + 48);
+			_putchar(i + '0');
 		}
 		for (i = 0; i < 5; i++)
 		{
-			_putchar(49);
-			_putchar(i + 48);
+			_putchar('1');
+			_putchar(i + '0');
 		}
 		_putchar('\n');
 	}
