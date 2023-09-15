@@ -2,7 +2,9 @@
 
 /**
  * print_numbers - prints numbers from 0 to 9
- * no input variables
+ * 
+ * void input
+ *
  * Return: void
  */
 
