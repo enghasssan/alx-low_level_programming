@@ -5,13 +5,14 @@
  *
  * void input
  *
- * Return: void 0
+ * Return: void 
  */
 
 void more_numbers(void)
 {
 	int i;
 	int j;
+	int k;
 
 	for (j = 0; j < 10; j++)
 	{
@@ -19,7 +20,7 @@ void more_numbers(void)
 		{
 			_putchar(i + '0');
 		}
-		for (i = 0; i < 5; i++)
+		for (k = 0; k < 5; k++)
 		{
 			_putchar('1');
 			_putchar(i + '0');
