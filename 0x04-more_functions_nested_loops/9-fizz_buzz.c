@@ -5,6 +5,7 @@
  *
  * Return: Always 0 (sucess)
  */
+
 int main(void)
 {
 	int number;
@@ -15,7 +16,7 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if (number % 5 == 0 && number % 3 != 0) 
+		else if (number % 5 == 0 && number % 3 != 0)
 		{
 			if (number == 100)
 			{
