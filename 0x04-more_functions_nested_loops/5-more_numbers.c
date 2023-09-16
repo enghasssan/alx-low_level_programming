@@ -12,20 +12,21 @@ void more_numbers(void)
 {
 	int i;
 	int j;
-	int k;
+	int count;
 
-	for (j = 0; j < 10; j++)
+	for (j = 1; j <= 10; j++)
 	{
-		for (i = 0; i < 10; i++)
+		for (count = 0; count <= 14; count++)
 		{
-			_putchar(i + '0');
-		}
-		for (k = 0; k < 5; k++)
-		{
-			_putchar('1');
+			i = count
+			if (count > 9)
+			{
+				_putchar('1');
+				i = count % 10;
+			}
 			_putchar(i + '0');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
+
