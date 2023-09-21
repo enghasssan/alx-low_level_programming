@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - takes a pointer to int then up.to 98
  *
- * @*n: pointer input variable
+ * @n: pointer input variable
  *
  * Return: always 0.
  */
