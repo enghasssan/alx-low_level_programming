@@ -19,8 +19,10 @@ void puts_half(char *str)
 	{
 		counter++;
 	}
+
 	c = counter - 1;
 	d = c / 2;
+	a = d + 1;
 
 	for (a = d + 1; a <= c; a++)
 	{
