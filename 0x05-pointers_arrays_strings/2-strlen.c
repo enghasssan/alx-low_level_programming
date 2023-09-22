@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strlen - fn returns length of string.
+ * _strlen - fn returns length of string.
  *
  * @s: points
  *
