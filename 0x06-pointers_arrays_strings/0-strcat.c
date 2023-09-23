@@ -14,7 +14,7 @@ char *_strcat(char *dest, char *src)
 	/*so we need to delete /0 of dest and then add src and then leave /0 at the end of src*/
 	int i = 0;
 	int k;
-	char temp1[100000];
+	char temp1[50];
 
 	while (dest[i] != '\0')
 	{
