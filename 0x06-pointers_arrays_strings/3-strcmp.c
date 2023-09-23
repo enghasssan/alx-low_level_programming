@@ -10,33 +10,20 @@
  * -1 if s1 < s2
  *  1 if s1 > s2
  */
+
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0;
-	int j = 0;
+	int eq = 0;
 
-	while (s1[i] != '\0')
+	while (*s1)
 	{
-		i++;
+		if (*s1 != *s2)
+		{
+			eq = ((int)*s1 - 48) - ((int)*s2 - 48);
+			break;
+		}
+		s1++;
+		s2++;
 	}
-	while (s2[j] != '\0')
-	{
-		j++;
-	}
-	if (i == j)
-	{
-		return (0);
-	}
-	else if (i > j)
-	{
-		return (1);
-	}
-	else if (i < j)
-	{
-		return (-1);
-	}
-	else 
-	{
-		return (0);
-	}
+	return (equal);
 }
