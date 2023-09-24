@@ -2,21 +2,21 @@
 
 /**
  * *string_toupper - change lowercase letters to uppercase
- * @a: string
+ * @s: string
  * Return: string capitalized
  */
 
-char *string_toupper(char *a)
+char *string_toupper(char *s)
 {
 	int i = 0;
 
-	while (*(a + i) != '\0')
+	while (*(s + i) != '\0')
 	{
-		if (*(a + i) >= 'a' && *(a + i) <= 'z')
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
-			*(a + 1) = *(a + 1) - 32;
+			*(s + 1) = *(s + 1) - 32;
 		}
 		i++;
 	}
-	return (a);
+	return (s);
 }
