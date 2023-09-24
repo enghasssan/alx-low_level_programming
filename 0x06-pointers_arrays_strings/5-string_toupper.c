@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * *string_toupper - fn subs. lowercase char by
- * uppercase chars of string
+ * *string_toupper - change lowercase letters to uppercase
  * @a: string
- * Return: string
+ * Return: string capitalized
  */
 
 char *string_toupper(char *a)
