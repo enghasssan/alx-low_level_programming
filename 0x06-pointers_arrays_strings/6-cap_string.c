@@ -5,7 +5,7 @@
  *
  * @s: string
  *
- * Return : functioned string
+ * Return: functioned string
  */
 
 char *cap_string(char *s)
