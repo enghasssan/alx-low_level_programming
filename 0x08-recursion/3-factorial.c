@@ -8,8 +8,6 @@
 
 int factorial(int n)
 {
-	int ans;
-
 	if (n == 0)
 	{
 		return (1);
