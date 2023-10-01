@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * sqrt - get natural sqrt of n
+ * sqrt2 - get natural sqrt of n
  * @a: number n
  * @b: 1 and iterates
- * Return: sqrt of n {N} or -1 if not {N}
+ * Return: sqrt of n {N} or -1 at no ans
  */
 
 int sqrt2(int a, int b)
@@ -20,7 +20,7 @@ int sqrt2(int a, int b)
 	return (sqrt2(a, b + 1));
 }
 /**
- * _sqrt_recursion - get natural sqrt of n
+ * _sqrt_recursion - return sqrt of n
  * @n: number
  * Return: sqrt of n {N} or -1 if not {N}
  */
