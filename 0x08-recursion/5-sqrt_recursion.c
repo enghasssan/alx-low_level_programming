@@ -6,7 +6,7 @@
  * Return: sqrt of n {N} or -1 if not {N}
  */
 
-int sqrt(int a, int b)
+int sqrt2(int a, int b)
 {
 	if (b * b == a)
 	{
@@ -16,8 +16,7 @@ int sqrt(int a, int b)
 		return (-1);
 	return (sqrt(a, b + 1));
 }
-
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 1));
+	return (sqrt2(n, 1));
 }
