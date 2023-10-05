@@ -7,10 +7,10 @@
  * Return: 0
  */
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i = 1;
-	while (argv[i] != '\0')
+	int i;
+	for (i = 1; i < argc; i++)
 	{
 		i++;
 	}
