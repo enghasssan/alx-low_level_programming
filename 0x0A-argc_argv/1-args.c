@@ -3,17 +3,13 @@
 /**
  * main - print the number of arguments
  * passed into the program
- * @argc: counter for size of array
+ * @argc: no. of inputed arguments
+ * @argv: pointer to array
  * Return: 0
  */
 
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int i;
-	for (i = 0; i < argc; i++)
-	{
-		i++;
-	}
-	printf("%d\n", i - 1);
+	printf("%d\n", argc - 1):
 	return (0);
 }
