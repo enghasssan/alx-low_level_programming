@@ -9,17 +9,18 @@
 
 int main(int argc, char *argv[])
 {
-	int mul;
+	int mult;
 
 	if (argc == 3)
 	{
-		mul = atoi(argv[1]) * atoi(argv[2]);
+		mult = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", mult);
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
-	printf("%d\n", mul);
+
 	return (0);
 }
