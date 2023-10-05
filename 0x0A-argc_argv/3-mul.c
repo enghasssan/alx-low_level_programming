@@ -16,14 +16,14 @@ int main(int argc, char *argv[])
 		while (argc > 1)
 		{
 			argc--;
-			mul = mul * argv[argc];
+			mul = mul * atoi(argv[argc]);
 		}
 		printf("%d\n", mul);
-		return (0);
 	}
 	else
 	{
 		printf("Error\n");
 		return (1);
 	}
+	return (0);
 }
