@@ -3,10 +3,9 @@
 /**
  * main - prints all char inputs
  * @argc: int of no of char inputs
- * @argv: pointer to array of inputs
+ * @argv: pointer to array
  * Return: 0
  */
-
 int main(int argc, char *argv[])
 {
 	int i;
