@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints all arguments recieved
- * @argc: int
- * @argv: pointer to array of arguments
+ * main - prints all char inputs
+ * @argc: int of no of char inputs
+ * @argv: pointer to array of inputs
  * Return: 0
  */
 
